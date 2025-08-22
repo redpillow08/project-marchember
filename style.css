@@ -1,0 +1,107 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+body{
+    background-color: rgba(209, 194, 194, 0.354);
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    align-items: center;
+    height: 3rem;
+    background-color: rgba(209, 194, 194, 0.354);
+    padding-left: 1rem;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#logo{
+    cursor: pointer;
+}
+
+#logo a{
+    text-decoration: none;
+    color: black;
+}
+.search-button{
+    border-radius: 10px;
+    height: 1.8rem;
+    width: 15rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.search-button::placeholder{
+    color: black;
+    font-size: 1rem;
+}
+#main{
+    display: grid;
+    grid-template-columns: 12vw 1fr 15vw;
+}
+
+#navbar{
+    background-color: hsla(300, 39%, 44%, 0.765);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+}
+#list{
+    margin-top: 100%;
+    padding: 0.2rem;
+}
+.menu{
+    border-radius: 1px;
+    margin-bottom: 3px;
+    height: 2rem;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.menu:hover{
+    background-color: hsla(300, 39%, 44%, 0.765);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu.active{
+    background-color: hsla(300, 95%, 23%, 0.838);
+    border-radius: 10px;
+}
+
+
+#main-page{
+    background-color: rgba(219, 204, 204, 0.527);
+    padding: 0%;
+}
+#main-page h1{
+    padding-left: 10vw;
+}
+
+.activities{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.activity{
+    border-radius: 10px;
+    height: 20vh;
+    width: 10vw;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#random-music{
+    background: #1DB954;
+    background: linear-gradient(180deg, rgba(29, 185, 84, 1) 0%, rgba(25, 20, 20, 1) 100%);
+}
