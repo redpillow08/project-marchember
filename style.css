@@ -96,7 +96,6 @@ header{
 
 #recent-activities{
     border: 2px solid hsl(350, 39%, 76%);
-    text-align: center;
     padding: 1rem;
     border-radius: 4rem;
     margin: 1rem;
@@ -146,6 +145,61 @@ header{
 #view-more:active{
     background-color: rgb(172, 172, 172);
 }
+
+
+#stats{
+    border: 2px solid hsl(350, 39%, 76%);
+    padding: 1rem;
+    border-radius: 4rem;
+    text-align: center;
+
+}
+
+#summary{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 1.3rem;
+    font-weight: lighter;
+}
+
+#summary a{
+    cursor: pointer;
+}
+
+#stats-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.stat{
+    cursor: pointer;
+    border-radius: 10px;
+    height: 25vh;
+    width: 15vw;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#exp-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+#exp{
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: lighter;
+    margin-left: 0.5rem;
+    width: 3rem;
+}
+
+#exp:hover{
+    cursor: pointer;
+}
+
+
 
 
 
