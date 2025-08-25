@@ -1,9 +1,33 @@
 *{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-family: "NowAlt-Regular", sans-serif;
+}
+
+
+
+
+@font-face {
+  font-family: 'Cresinta-Regular';
+  src: url('fonts/Cresinta-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NowAlt-Regular';
+  src: url('fonts/NowAlt-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Raintop-Regular';
+  src: url('fonts/Raintop-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body{
-    background-color: rgba(209, 194, 194, 0.354);
+    background-color: #E3E4DB;
 }
 
 header{
@@ -12,7 +36,7 @@ header{
     gap: 100px;
     align-items: center;
     height: 3rem;
-    background-color: rgba(209, 194, 194, 0.354);
+    background-color: #CDCDCD;
     padding-left: 1rem;
     font-weight: bold;
     border-bottom: 0.5px solid gray;
@@ -27,6 +51,8 @@ header{
 #logo a{
     text-decoration: none;
     color: black;
+    font-family: 'Cresinta-Regular', sans-serif;
+    font-size: 2rem;
 }
 .search-button{
     border-radius: 10px;
@@ -53,6 +79,7 @@ header{
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
+    border-top-right-radius: 10px;
 }
 #list{
     margin-top: 100%;
@@ -80,7 +107,7 @@ header{
 
 
 #main-page{
-    background-color: rgba(219, 204, 204, 0.527);
+    background-color: #E3E4DB;
     padding: 0%;
 }
 
@@ -92,37 +119,39 @@ header{
 
 #welcome a{
     cursor: pointer;
+    font-family: 'Raintop-Regular', sans-serif;
 }
 
 #recent-activities{
-    border: 2px solid hsl(350, 39%, 76%);
     padding: 1rem;
     border-radius: 4rem;
     margin: 1rem;
 }
 
 #recent-activities-head{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     margin-left: 1.3rem;
-    font-weight: lighter;
 }
 
 #recent-activities-head a{
     cursor: pointer;
+    font-family: 'Raintop-Regular', sans-serif;
+
 }
 
 .activities{
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
+    gap: 2rem;
     align-items: center;
 
 }
 .activity{
     cursor: pointer;
     border-radius: 10px;
-    height: 25vh;
-    width: 15vw;
+    height: 20vh;
+    width: 10vw;
     background-color: white;
     border: 1px solid black;
 }
@@ -148,22 +177,22 @@ header{
 
 
 #stats{
-    border: 2px solid hsl(350, 39%, 76%);
     padding: 1rem;
     border-radius: 4rem;
-    text-align: center;
+    margin: 1rem;
 
 }
 
 #summary{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     margin-left: 1.3rem;
-    font-weight: lighter;
+    font-family: 'Raintop-Regular', sans-serif;
 }
 
 #summary a{
     cursor: pointer;
+
 }
 
 #stats-container{
